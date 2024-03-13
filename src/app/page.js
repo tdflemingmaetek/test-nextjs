@@ -8,7 +8,7 @@ export default async function Home() {
   const user = await currentUser()
   return (
     <main>
-      <Container>
+      <Container fluid="true" className="text-center">
       <SignedIn>
       <h1 className="text-danger">Hello {user ? user.firstName : null}</h1>
       <p>User Id: {userId}</p>

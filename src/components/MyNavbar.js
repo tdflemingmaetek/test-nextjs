@@ -15,7 +15,8 @@ const MyNavbar = () => {
           <Nav className='me-auto'>
             <Nav.Link href="/">Home</Nav.Link>
             <SignedIn>
-            <Nav.Link href="#link">Link</Nav.Link>
+            <Nav.Link href="About">About</Nav.Link>
+            <Nav.Link href="Contact">Contact Us</Nav.Link>
             </SignedIn>
             <SignedOut>
             <SignUpButton mode="modal" afterSignUpUrl='/'><Nav.Link href="#">Register</Nav.Link></SignUpButton>{' '}
