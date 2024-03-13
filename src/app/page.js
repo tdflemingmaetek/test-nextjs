@@ -14,7 +14,6 @@ export default async function Home() {
       <p>User Id: {userId}</p>
       </SignedIn>
       </Container>
-      
     </main>
   );
 }
