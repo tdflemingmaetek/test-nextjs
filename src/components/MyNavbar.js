@@ -7,7 +7,7 @@ import { SignUpButton, SignInButton, UserButton, SignedIn, SignedOut } from '@cl
 
 const MyNavbar = () => {
   return (
-    <Navbar expand="lg" bg="dark" data-bs-theme="dark">
+    <Navbar expand="md" bg="dark" data-bs-theme="dark">
       <Container>
         <Navbar.Brand href="/">Test Next.js/Bootstrap site</Navbar.Brand>
         <Navbar.Toggle />
@@ -23,7 +23,7 @@ const MyNavbar = () => {
             <SignInButton mode="modal" afterSignInUrl='/'><Nav.Link href="#">Sign In</Nav.Link></SignInButton>{' '}
             </SignedOut>
           </Nav>
-          <UserButton afterSignOutUrl='/'/>
+          <UserButton className="d-sm-none" afterSignOutUrl='/'/>
         </Navbar.Collapse>
       </Container>
     </Navbar>
